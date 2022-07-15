@@ -18,12 +18,13 @@ defaultContentLanguage = "ko"
 title = "三人行必有我師"
 theme = "hugo-tranquilpeak-theme"
 # disqusShortname = "hugo-tranquilpeak-theme"
-googleAnalytics = "UA-123-45"
+googleAnalytics = "G-12T3RG3M8E"
 paginate = 7
 canonifyurls = true
 
 [permalinks]
-  posts = "/:year/:month/:slug/"
+  # posts = "/:year/:month/:slug/"
+  posts = "/:yearday/:slugorfilename/"
 
 [taxonomies]
   tag = "tags"
